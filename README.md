@@ -7,14 +7,15 @@
   ```
 
   2. Change the directory to rtsp-streaming
+   
   ```
   cd rtsp-streaming
   ```
 
-  3. Starting the server
+  3. Starting the flask server
 
-  ### spinning the flask server
   ```
+  #change the directory to my-env
   cd my-env
 
   #acivate the virtual environment
@@ -31,5 +32,26 @@
   #start the server
   python3 app.py
 
+  # server will be running on  http://127.0.0.1:5000
+
   ```
+
+4. Starting the React server
+
+```
+#change the directory to client
+cd client
+
+# installing dependcies for the react
+npm install
+
+# start the server
+npm run dev
+
+# access the webpage on  http://localhost:5173/
+
+```
+
+
+   
 
