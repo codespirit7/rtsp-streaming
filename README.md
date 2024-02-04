@@ -23,7 +23,7 @@
 
   #Now you will see (my-env) before the cmd path, stating you have activated the virtual environment
 
-  # inntalling all the dependecies
+  # installing all the dependecies
   pip install -r requirements.txt
 
   # One more last thing , you have to create a "streamOutput" folder
