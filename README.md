@@ -3,7 +3,6 @@
 # Setting the project on local Machine.
 
   ```
-   git clone git@github.com:codespirit7/rtsp-streaming.git
-
+  git clone git@github.com:codespirit7/rtsp-streaming.git
   ```
 
