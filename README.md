@@ -26,6 +26,9 @@
   # installing all the dependecies
   pip install -r requirements.txt
 
+  # configure the mongodb atlas url in app.py file, you can get your mongodb atlas url from https://www.mongodb.com/cloud
+  CONNECTION_STRING = "mongodb+srv://<username>:<password>@cluster0.wvcngti.mongodb.net/?retryWrites=true&w=majority"
+
   # One more last thing , you have to create a "streamOutput" folder
   mkdir streamOutput
 
